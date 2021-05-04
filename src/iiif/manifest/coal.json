@@ -176,6 +176,49 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "@context": "https://iiif.io/api/presentation/3/context.json",
+          "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/annotations",
+          "type": "AnnotationPage",
+          "label": "University of Tennessee Libraries Homepage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/annotations/1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Until the mid-1950s, miners in Appalachia would use gurney-cars to move coal from elevated peaks."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/canvas#xywh=1720,675,644,523"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/annotations/2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "The coal is quickly processed and delivered to the mainway, a mechanism for depositing rock and earth matter into train cars."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/canvas#xywh=704,1462,1436,923"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/annotations/3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "A session house often accompanied coal mining outfits in Eastern Tennessee. These buildings served as administrative offices and gathering points for shift workers."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/365/canvas#xywh=2640,1618,1084,803"
+            }
+          ]
+        }
       ]
     }
   ]

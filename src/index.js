@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 
 import "./scss/style.scss";
 
-import Kamiah from './Kamiah';
+import Exposition from "./Exposition";
 
 Array.prototype.forEach.call(
-    document.getElementsByClassName('kamiah'),
+    document.getElementsByClassName('exposition-setting'),
     function(el) {
         let manifest = el.getAttribute('data-manifest');
-        ReactDOM.render(<Kamiah manifest={manifest} />, el);
+        ReactDOM.render(<Exposition manifest={manifest} />, el);
     }
 );
 
