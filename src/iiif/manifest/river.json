@@ -176,6 +176,49 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "@context": "https://iiif.io/api/presentation/3/context.json",
+          "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/annotations",
+          "type": "AnnotationPage",
+          "label": "University of Tennessee Libraries Homepage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/annotations/1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Due to extensive damming, the river he has widened considerably in the past 100 years. This has shown it's greatest impact at the southeastern bend. "
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas#xywh=1392,424,748,484"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/annotations/2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Once a bustling meadow, the approximately 75 acres of farm land belonging to Sanderson Farms is now used for hemp farming."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas#xywh=84,448,1476,1108"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/annotations/3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "While on a trip to Paint Rock in the April of 1962, Dr. August Sterling, a University of Tennessee professor, slipped and fell 25 yards into the waters below."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas#xywh=2248,728,904,648"
+            }
+          ]
+        }
       ]
     }
   ]
