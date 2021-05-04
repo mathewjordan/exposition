@@ -176,6 +176,60 @@
             }
           ]
         }
+      ],
+      "annotations": [
+        {
+          "@context": "https://iiif.io/api/presentation/3/context.json",
+          "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/annotations",
+          "type": "AnnotationPage",
+          "label": "University of Tennessee Libraries Homepage",
+          "items": [
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/annotations/1",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "The roof of a typical cabin house was a patch-work construct of tar, wood, and rendered animal fat."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/canvas#xywh=584,155,1772,1222"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/annotations/2",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "Cooking of meals regularly took place outside due to internal ventilation often being very rudimentary, ."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/canvas#xywh=2032,1817,836,655"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/annotations/3",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "The 13209 identification code indicates the production run of this particular print."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/canvas#xywh=2956,3,924,375"
+            },
+            {
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/annotations/4",
+              "type": "Annotation",
+              "motivation": "commenting",
+              "body": {
+                "type": "FragmentSelector",
+                "language": "en",
+                "value": "An elevated foundation and stairwells to cabins in Eastern Tennessee and broader Appalachia were necessary due to seasonal flooding."
+              },
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/343/canvas#xywh=2920,1547,662,723"
+            }
+          ]
+        }
       ]
     }
   ]

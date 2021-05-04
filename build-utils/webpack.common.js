@@ -37,6 +37,6 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, '..', 'dist'),
-    filename: 'kamiah.js',
+    filename: 'exposition.js',
   },
 };

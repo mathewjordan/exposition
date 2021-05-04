@@ -1,31 +1,27 @@
 import React, { Component } from 'react';
 import LazyLoad from 'react-lazyload';
 
-class Plot extends Component {
-
-  getRegion = (uri) => {
-    let result = uri.split('#xywh=')
-    return result[1]
-  }
-
+class Character extends Component {
 
   render() {
 
-    let region = this.getRegion(this.props.annotation.target)
+    const full = this.props.image + '/full/!750,750/0/default.jpg'
+    const preview = this.props.image + '/full/!50,50/0/default.jpg'
 
-    const full = this.props.image + '/' + region + '/!750,750/0/default.jpg'
-    const preview = this.props.image + '/' + region + '/!50,50/0/default.jpg'
+    console.log(this.props.requiredStatement)
 
     return (
       <figure className="exposition-plot">
         <div className="exposition-plot--strip">
           <figcaption>
-            {this.props.annotation.body.value}
+            <strong>{this.props.label}</strong>
+            <p>{this.props.summary}</p>
+            <em>{this.props.requiredStatement.label.en[0]}: {this.props.requiredStatement.value.en[0]}</em>
           </figcaption>
         </div>
         <div className="exposition-plot--canvas">
           <LazyLoad>
-              <img alt={this.props.label} src={full} />
+            <img alt={this.props.label} src={full} />
           </LazyLoad>
           <span style={{
             backgroundImage: `url(${preview})`
@@ -37,4 +33,4 @@ class Plot extends Component {
   }
 }
 
-export default Plot;
+export default Character;
