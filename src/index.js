@@ -8,7 +8,8 @@ import Kamiah from './Kamiah';
 Array.prototype.forEach.call(
     document.getElementsByClassName('kamiah'),
     function(el) {
-        ReactDOM.render(<Kamiah />, el);
+        let manifest = el.getAttribute('data-manifest');
+        ReactDOM.render(<Kamiah manifest={manifest} />, el);
     }
 );
 

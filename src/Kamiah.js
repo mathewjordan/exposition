@@ -4,9 +4,17 @@ class Kamiah extends Component {
 
     render() {
 
-        return (
-          <div>Init kamiah.</div>
-        )
+        let {manifest} = this.props
+
+        console.log(this.props)
+
+        if (manifest) {
+            return (
+              <div>{manifest}</div>
+            )
+        } else {
+            return null
+        }
 
     }
 }
