@@ -1,0 +1,182 @@
+{
+  "@context": [
+    "https://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tennessee River from Paint Rock"
+    ]
+  },
+  "summary": {
+    "en": [
+      "View of the Tennessee River from Paint Rock. \"Paint Rock\" likely refers to the Paint Rock River, which is a small tributary that joins the Tennessee River near the Tennessee/Alabama border."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Role Term"
+        ]
+      },
+      "value": {
+        "en": [
+          "Unknown"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1900-1920",
+          "1900",
+          "1920"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Form"
+        ]
+      },
+      "value": {
+        "en": [
+          "postcards"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Topic"
+        ]
+      },
+      "value": {
+        "en": [
+          "Architectural photography"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coverage"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tennessee River"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Publication Identifier"
+        ]
+      },
+      "value": {
+        "en": []
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/CNE/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "University of Tennessee, Knoxville. Libraries"
+      ]
+    }
+  },
+  "provider": [
+    {
+      "id": "https://www.lib.utk.edu/about/",
+      "type": "Agent",
+      "label": {
+        "en": [
+          "University of Tennessee, Knoxville. Libraries"
+        ]
+      },
+      "homepage": [
+        {
+          "id": "https://www.lib.utk.edu/",
+          "type": "Text",
+          "label": {
+            "en": [
+              "University of Tennessee Libraries Homepage"
+            ]
+          },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://utkdigitalinitiatives.github.io/iiif-level-0/ut_libraries_centered/full/full/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg",
+          "width": 200,
+          "height": 200
+        }
+      ]
+    }
+  ],
+  "thumbnail": [
+    {
+      "id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~tenncities%3A404~datastream~OBJ/info.json",
+      "type": "Image",
+      "format": "image/jpeg",
+      "width": 200,
+      "height": 200
+    }
+  ],
+  "items": [
+    {
+      "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas",
+      "type": "Canvas",
+      "width": 4000,
+      "height": 2480,
+      "items": [
+        {
+          "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "@context": "https://iiif.io/api/presentation/3/context.json",
+              "id": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": [
+                {
+                  "id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~tenncities%3A404~datastream~OBJ/full/full/0/default.jpg",
+                  "type": "Image",
+                  "width": 4000,
+                  "height": 2480,
+                  "format": "image/jpeg",
+                  "service": {
+                    "@id": "https://digital.lib.utk.edu/iiif/2/collections~islandora~object~tenncities%3A404~datastream~OBJ",
+                    "@type": "http://iiif.io/api/image/2/context.json",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                }
+              ],
+              "target": "https://digital.lib.utk.edu/assemble/manifest/tenncities/404/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
