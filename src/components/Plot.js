@@ -8,13 +8,11 @@ class Plot extends Component {
     return result[1]
   }
 
-
   render() {
 
     let region = this.getRegion(this.props.annotation.target)
 
     const full = this.props.image + '/' + region + '/!750,750/0/default.jpg'
-    const preview = this.props.image + '/' + region + '/!50,50/0/default.jpg'
 
     return (
       <figure className="exposition-plot">
@@ -27,9 +25,6 @@ class Plot extends Component {
           <LazyLoad>
               <img alt={this.props.label} src={full} />
           </LazyLoad>
-          <span style={{
-            backgroundImage: `url(${preview})`
-          }}></span>
         </div>
       </figure>
     )

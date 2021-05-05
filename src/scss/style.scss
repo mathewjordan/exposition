@@ -22,14 +22,19 @@ body {
 
     figcaption {
       padding: 3em;
-      font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
       strong {
-        font-size: 1.25em;
+        font-size: 1.2777rem;
+        line-height: 1.35em;
+      }
+
+      p {
+        font-size: 0.8333rem;
+        line-height: 1.55em;
       }
 
       em {
-        font-size: 0.75em;
+        font-size: 0.7222rem;
         line-height: 1.35em;
         display: block;
         color: #58595b;
@@ -51,16 +56,7 @@ body {
     }
 
     span {
-      opacity: 0;
-      display: block;
-      position: absolute;
-      width: 120%;
-      height: 120%;
-      left: -10%;
-      top: -10%;
-      background-size: cover;
-      filter: blur(50px) brightness(0.38);
-      z-index: 0;
+      overflow: hidden;
     }
   }
 }

@@ -6,9 +6,6 @@ class Character extends Component {
   render() {
 
     const full = this.props.image + '/full/!750,750/0/default.jpg'
-    const preview = this.props.image + '/full/!50,50/0/default.jpg'
-
-    console.log(this.props.requiredStatement)
 
     return (
       <figure className="exposition-plot">
@@ -23,9 +20,6 @@ class Character extends Component {
           <LazyLoad>
             <img alt={this.props.label} src={full} />
           </LazyLoad>
-          <span style={{
-            backgroundImage: `url(${preview})`
-          }}></span>
         </div>
       </figure>
     )
