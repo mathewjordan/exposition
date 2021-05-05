@@ -18,7 +18,7 @@ class Plot extends Component {
       <figure className="exposition-plot">
         <div className="exposition-plot--strip">
           <figcaption>
-            {this.props.annotation.body.value}
+            <p>{this.props.annotation.body.value}</p>
           </figcaption>
         </div>
         <div className="exposition-plot--canvas">
